@@ -1,15 +1,18 @@
-﻿<div align=center>
+<div align=center>
 
-# [SJMC服务器专用]SMP2卫星地图
+# SJMC SMP2 Satellite
 
 在启动器中查看 SJMC SMP2 服务器的实时卫星地图 🗺️
 
+**[English](README.en.md) · 简体中文**
+
 </div>
+
 ---
 
 ## 简介
 
-[SJMC服务器专用]SMP2卫星地图是一款 SJMCL 扩展，在启动器内直接查看 SJMC SMP2 服务器的实时卫星地图，无需打开浏览器。
+SJMC SMP2 Satellite 是一款 SJMCL 扩展，在启动器内直接查看 SJMC SMP2 服务器的实时卫星地图，无需打开浏览器。
 
 ⚠️ 本扩展仅适用于 SJMC SMP2 服务器，其他服务器无法使用。
 

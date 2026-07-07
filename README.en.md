@@ -1,0 +1,38 @@
+<div align=center>
+
+# SJMC SMP2 Satellite
+
+View real-time satellite map of SJMC SMP2 server inside the launcher 🗺️
+
+**English · [简体中文](README.md)**
+
+</div>
+
+---
+
+## 简介
+
+SJMC SMP2 Satellite is a SJMCL extension that displays the real-time satellite map of the SJMC SMP2 server directly in the launcher, no browser needed.
+
+⚠️ This extension is for the SJMC SMP2 server only and will not work with other servers.
+
+## Features
+
+- 🗺️ Real-time SMP2 server satellite map
+- 🔄 Multi-dimension switching (Overworld, Nether, End)
+- 🎮 2D top-down and 3D perspective views
+- 📍 Player location markers
+
+## Installation
+
+1. Download org.yoshino.satellite_map.sjmclx from Releases
+2. Open SJMCL → Settings → Extension Management → Import
+3. View from the home card or extension page
+
+## Compatibility
+
+- Minimum launcher version: 1.1.3
+
+## License
+
+MIT
