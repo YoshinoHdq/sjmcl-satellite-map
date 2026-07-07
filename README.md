@@ -12,20 +12,24 @@
 
 ## 简介
 
-SJMC SMP2 Satellite 是一款 SJMCL 扩展，在启动器内直接查看 SJMC SMP2 服务器的实时卫星地图，无需打开浏览器。
+SJMC SMP2 Satellite 是一款 SJMCL 扩展，在启动器内直接查看 SJMC SMP2 服务器的实时卫星地图。
 
 ⚠️ 本扩展仅适用于 SJMC SMP2 服务器，其他服务器无法使用。
+
+提供两个版本：
+- **英文版**（org.yoshino.sjmc_smp2_satellite）
+- **中文版**（org.yoshino.sjmc_smp2_satellite.zh）
 
 ## 功能特色
 
 - 🗺️ 实时展示 SMP2 服务器卫星地图
 - 🔄 支持多维度切换（主世界、下界、末地）
-- 🎮 2D 平面视图与 3D 立体视图切换
-- 📍 支持玩家位置标记
+- 🎮 2D / 3D 视图切换
+- 📍 玩家位置标记
 
 ## 使用方法
 
-1. 在 Releases 下载 org.yoshino.satellite_map.sjmclx
+1. 从 Releases 下载对应的 .sjmclx 文件
 2. 打开 SJMCL → 设置 → 扩展管理 → 导入
 3. 启用后在首页卡片或扩展页面中查看
 

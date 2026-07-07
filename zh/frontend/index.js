@@ -17,16 +17,16 @@
     var BASE_URL = "https://mc.sjtu.cn/satellite/new_and_cloud";
 
     var DIMENSIONS = [
-      { id: "world", label: "XinZhou", worldName: "world", cx: 2441, cy: 74, cz: -2363, zoom: 6, views: ["surface", "flat"] },
-      { id: "world_nether", label: "Nether", worldName: "world_nether", cx: 29, cy: 41, cz: -12, zoom: 6, views: ["flat"] },
-      { id: "island1", label: "Sky", worldName: "island1", cx: 1064, cy: 55, cz: 1092, zoom: 6, views: ["surface", "flat", "cave"] },
-      { id: "resourceworldend", label: "End", worldName: "resourceworldend", cx: 0, cy: 65, cz: 0, zoom: 6, views: ["surface", "flat"] },
+      { id: "world", label: "新洲", worldName: "world", cx: 2441, cy: 74, cz: -2363, zoom: 6, views: ["surface", "flat"] },
+      { id: "world_nether", label: "下界", worldName: "world_nether", cx: 29, cy: 41, cz: -12, zoom: 6, views: ["flat"] },
+      { id: "island1", label: "云端", worldName: "island1", cx: 1064, cy: 55, cz: 1092, zoom: 6, views: ["surface", "flat", "cave"] },
+      { id: "resourceworldend", label: "末地", worldName: "resourceworldend", cx: 0, cy: 65, cz: 0, zoom: 6, views: ["surface", "flat"] },
     ];
 
     var VIEW_MODES = [
-      { id: "flat", label: "Flat" },
-      { id: "surface", label: "3D" },
-      { id: "cave", label: "Cave" },
+      { id: "flat", label: "平面" },
+      { id: "surface", label: "立体" },
+      { id: "cave", label: "洞穴" },
     ];
 
     function findDim(id) {
@@ -81,7 +81,7 @@
       function handleFullscreen() {
         host.actions.openWindow(
           "/standalone/extension/" + EXTENSION_ID + "/map",
-          "Satellite Map"
+          "卫星地图"
         );
       }
 
@@ -135,7 +135,7 @@
               border: "none",
               display: "block",
             },
-            title: "Satellite Map",
+            title: "卫星地图",
           })
         ),
 
@@ -173,7 +173,7 @@
                 variant: "outline",
                 onClick: handleRefresh,
               },
-              "Refresh"
+              "刷新"
             ),
             React.createElement(
               Button,
@@ -182,7 +182,7 @@
                 variant: "outline",
                 onClick: handleFullscreen,
               },
-              "Fullscreen"
+              "全屏"
             )
           )
         )
@@ -208,14 +208,14 @@
             border: "none",
             display: "block",
           },
-          title: "Satellite Map",
+          title: "卫星地图",
         })
       );
     };
 
     return {
       homeWidget: {
-        title: "Satellite Map",
+        title: "卫星地图",
         defaultWidth: 420,
         minWidth: 320,
         Component: WidgetComponent,
