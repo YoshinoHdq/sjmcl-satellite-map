@@ -40,3 +40,8 @@ SJMC SMP2 Satellite 是一款 SJMCL 扩展，在启动器内直接查看 SJMC SM
 ## 许可
 
 MIT
+
+
+---
+
+*此插件在开发过程中使用了 AI 辅助编码工具。*
