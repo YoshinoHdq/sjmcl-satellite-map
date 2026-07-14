@@ -37,6 +37,11 @@ SJMC SMP2 Satellite 是一款 SJMCL 扩展，在启动器内直接查看 SJMC SM
 
 - 最低启动器版本: 1.1.3
 
+
+## 相关项目与文档
+
+- [SJMCL 扩展开发文档](https://mc.sjtu.cn/sjmcl/dev/extension/)
+- [awesome-SJMCL-extensions](https://github.com/SJMC-Dev/awesome-SJMCL-extensions)
 ## 许可
 
 MIT
@@ -45,7 +50,3 @@ MIT
 ---
 
 *此插件在开发过程中使用了 AI 辅助编码工具。*
-## 相关项目与文档
-
-- [SJMCL 扩展开发文档](https://mc.sjtu.cn/sjmcl/dev/extension/)
-- [awesome-SJMCL-extensions](https://github.com/SJMC-Dev/awesome-SJMCL-extensions)
